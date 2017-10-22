@@ -9,7 +9,7 @@ Designed for gvim to be used with the vim plugins for KRL ([vimscript #5344][4])
 
 This one gets quiet colorful. It is basically a copy of torte with some tweaks.
 
-Credits goes to Thorsten Maerz and Sergei Matusevich.
+Credits goes to Thorsten Maerz, Sergei Matusevich and Robert Melton.
  
 ## install details
 Copy tortus.vim to `~/.vim/colors/tortus.vim`,  

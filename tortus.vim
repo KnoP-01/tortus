@@ -2,7 +2,7 @@
 " A copy+paste color scheme
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
-" Version: 1.0.6
+" Version: 1.0.7
 " Last Change: 27 July 2017
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
@@ -47,6 +47,7 @@ highlight MatchParen guibg=purple guifg=yellow
 highlight Pmenu guibg=grey20 guifg=white
 highlight PmenuSel guibg=#00ff00 guifg=black
 highlight WildMenu guibg=cyan guifg=black
+highlight Conceal guibg=#404040 guifg=orange gui=NONE
 
 " Console
 highlight Normal        ctermfg=LightGrey	ctermbg=Black  cterm=NONE
@@ -78,7 +79,7 @@ if has("win32")
   highlight CursorLine ctermbg=Darkblue
 endif
 highlight PreProc ctermfg=magenta
-highlight Underlined ctermbg=darkmagenta ctermfg=magenta
+highlight Underlined ctermfg=magenta
 highlight Pmenu ctermbg=black ctermfg=white
 highlight PmenuSel ctermbg=magenta ctermfg=black
 
