@@ -4,7 +4,7 @@
 color scheme
  
 ## description
-Dark (grey and yellow on black) color scheme based on on torte.vim ([vimscript #111][1]), motus.vim ([vimscript #1393][2]) and metacosm.vim ([vimscript #985][3]).
+Dark (grey and yellow on black) color scheme based on on torte.vim ([vimscript #111][1]), motus.vim ([vimscript #1393][2]) and metacosm.vim ([vimscript #985][3]).  
 Designed for gvim to be used with the vim plugins for KRL ([vimscript #5344][4]) and Rapid ([vimscript #5348][5]).
 
 This one gets quiet colorful. It is basically a copy of torte with some tweaks.
