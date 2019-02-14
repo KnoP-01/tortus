@@ -15,6 +15,11 @@ It started as a copy of torte.vim and drifted away more and more.
 tortus.vim gets quiet colorful. 
 If it's too colorful for you try tortusless.vim.
 
+
+![tortus.vim example vimscript](./colors/tortus_views/tortus_vimscript.png)
+
+tortusless.vim examples
+
 Credits goes to Thorsten Maerz, Sergei Matusevich and Robert Melton.
  
 ## install details
