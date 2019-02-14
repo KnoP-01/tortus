@@ -9,7 +9,7 @@ Dark (grey and yellow on black) color scheme based on on torte.vim
 metacosm.vim ([vimscript #985][3]).  
 
 Designed for gvim to be used with vim plugins for KRL ([vimscript #5344][4])
-and Rapid ([vimscript #5348][5]). Should work fine on consoles as well.
+and Rapid ([vimscript #5348][5]). Should work fine on console as well.
 It started as a copy of torte.vim and drifted away more and more.
 
 tortus.vim gets quiet colorful. 
