@@ -16,12 +16,18 @@ tortus.vim gets quiet colorful.
 If it's too colorful for you try tortusless.vim.
 
 
+tortus.vim example vimscript
 ![tortus.vim example vimscript](./colors/tortus_views/tortus_vimscript.png)
+tortus.vim example rapid
 ![tortus.vim example rapid](./colors/tortus_views/tortus_rapid.png)
+tortus.vim example krl
 ![tortus.vim example krl](./colors/tortus_views/tortus_krl.png)
 
+tortusless.vim example vimscript
 ![tortusless.vim example vimscript](./colors/tortus_views/tortusless_vimscript.png)
+tortusless.vim example rapid
 ![tortusless.vim example rapid](./colors/tortus_views/tortusless_rapid.png)
+tortusless.vim example krl
 ![tortusless.vim example krl](./colors/tortus_views/tortusless_krl.png)
 
 
