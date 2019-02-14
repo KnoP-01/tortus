@@ -17,6 +17,7 @@ If it's too colorful for you try tortusless.vim.
 
 
 ![tortus.vim example vimscript](./colors/tortus_views/tortus_vimscript.png)
+![tortus.vim example krl](./colors/tortus_views/tortus_krl.png)
 
 tortusless.vim examples
 
