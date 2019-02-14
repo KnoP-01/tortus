@@ -33,8 +33,8 @@ If you use this colorscheme with krl.vim >=1.3.0 or rapid.vim >=1.3.0 put
 
 in .vimrc as well.
 
-[1]: https://vim.sourceforge.io/scripts/script.php?script_id=111
-[2]: https://vim.sourceforge.io/scripts/script.php?script_id=1393
-[3]: https://vim.sourceforge.io/scripts/script.php?script_id=985
-[4]: https://vim.sourceforge.io/scripts/script.php?script_id=5344
-[5]: https://vim.sourceforge.io/scripts/script.php?script_id=5348
+[1]: https://www.vim.org/scripts/script.php?script_id=111
+[2]: https://www.vim.org/scripts/script.php?script_id=1393
+[3]: https://www.vim.org/scripts/script.php?script_id=985
+[4]: https://www.vim.org/scripts/script.php?script_id=5344
+[5]: https://www.vim.org/scripts/script.php?script_id=5348
