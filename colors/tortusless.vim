@@ -2,7 +2,7 @@
 " A copy+paste color scheme
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
-" Version: 1.0.0
+" Version: 1.0.1
 " Last Change: 14 Feb 2019
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
@@ -40,7 +40,7 @@ highlight Identifier        guibg=Black     guifg=#009b9b
 highlight Function          guibg=Black     guifg=#009b9b
 highlight BuildInFunction   guibg=Black     guifg=#00b9b9
 highlight Sysvars           guibg=black     guifg=white
-highlight Movement          guibg=black     guifg=#a0db35
+highlight Movement          guibg=black     guifg=#00f000
 highlight Continue          guifg=#646423
 highlight Operator          guibg=black     guifg=#ff7800
 highlight Delimiter         guibg=black     guifg=#ff7800
