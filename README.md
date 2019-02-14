@@ -17,9 +17,13 @@ If it's too colorful for you try tortusless.vim.
 
 
 ![tortus.vim example vimscript](./colors/tortus_views/tortus_vimscript.png)
+![tortus.vim example rapid](./colors/tortus_views/tortus_rapid.png)
 ![tortus.vim example krl](./colors/tortus_views/tortus_krl.png)
 
-tortusless.vim examples
+![tortusless.vim example vimscript](./colors/tortus_views/tortusless_vimscript.png)
+![tortusless.vim example rapid](./colors/tortus_views/tortusless_rapid.png)
+![tortusless.vim example krl](./colors/tortus_views/tortusless_krl.png)
+
 
 Credits goes to Thorsten Maerz, Sergei Matusevich and Robert Melton.
  
