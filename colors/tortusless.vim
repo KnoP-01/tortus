@@ -38,7 +38,7 @@ highlight StorageClass      guibg=Black     guifg=#a0db35
 highlight Folded            guibg=black     guifg=#a0db35
 highlight Identifier        guibg=Black     guifg=#009b9b
 highlight Function          guibg=Black     guifg=#009b9b
-highlight BuildInFunction   guibg=Black     guifg=#00b9b9
+highlight BuildInFunction   guibg=Black     guifg=#00eeee
 highlight Sysvars           guibg=black     guifg=white
 highlight Movement          guibg=black     guifg=#00f000
 highlight Continue          guifg=#646423
