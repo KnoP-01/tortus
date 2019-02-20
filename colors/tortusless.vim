@@ -36,8 +36,8 @@ highlight Type						gui=NONE
 highlight Typedef           guibg=black     guifg=#00ff8c
 highlight StorageClass      guibg=Black     guifg=#a0db35
 highlight Folded            guibg=black     guifg=#a0db35
-highlight Identifier        guibg=Black     guifg=#00e0e0
-highlight Function          guibg=Black     guifg=#00e0e0
+highlight Identifier        guibg=Black     guifg=#00eeee
+highlight Function          guibg=Black     guifg=#00cccc
 highlight BuildInFunction   guibg=Black     guifg=#00aaaa
 highlight Sysvars           guibg=black     guifg=white
 highlight Movement          guibg=black     guifg=#00f000
