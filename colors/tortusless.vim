@@ -2,8 +2,8 @@
 " A copy+paste color scheme
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
-" Version: 1.0.2
-" Last Change: 20 Feb 2019
+" Version: 1.0.3
+" Last Change: 29 Mar 2019
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -17,7 +17,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "tortus"
+let g:colors_name = "tortusless"
 
 " GUI
 highlight Normal     guifg=Grey80	guibg=Black
@@ -54,7 +54,7 @@ highlight PmenuSel guibg=#00ff00 guifg=black
 highlight WildMenu guibg=cyan guifg=black
 highlight Conceal guibg=#404040 guifg=orange gui=NONE
 highlight Constant      guibg=black   guifg=Orange
-highlight Todo          guibg=black   guifg=white 
+highlight Todo          guibg=#404040   guifg=white 
 
 " Console
 highlight Normal        ctermfg=LightGrey	ctermbg=Black  cterm=NONE
