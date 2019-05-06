@@ -2,8 +2,8 @@
 " A copy+paste color scheme
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
-" Version: 1.0.3
-" Last Change: 29 Mar 2019
+" Version: 1.0.5
+" Last Change: 17 Apr 2019
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -26,11 +26,17 @@ highlight Visual     guifg=Black guibg=Grey gui=NONE
 highlight Cursor     guifg=Black	guibg=#00ff00	gui=bold
 " highlight Special    guifg=Orange
 highlight Comment    guifg=#606080
-highlight StatusLine   gui=NONE guifg=White     guibg=#204040
-highlight StatusLineNC gui=NONE guifg=#666666 guibg=#102020
+" highlight StatusLine   gui=NONE guifg=White     guibg=#204040
+" highlight StatusLine gui=NONE guifg=#FFFFFF guibg=#FF3000
+highlight StatusLine gui=NONE guifg=#EEEEEE guibg=#556600
+" highlight StatusLineNC gui=NONE guifg=#666666 guibg=#102020
+" highlight StatusLineNC   gui=NONE guifg=#FF6000     guibg=#444444
+highlight StatusLineNC   gui=NONE guifg=#99BB00     guibg=#444444
 highlight Statement  guifg=Yellow			gui=NONE
 highlight Label  guifg=#FFC030			gui=NONE
-highlight VertSplit    gui=bold guifg=Grey25    guibg=#102020
+" highlight VertSplit    gui=bold guifg=Grey25    guibg=#102020
+" highlight VertSplit   gui=bold guifg=#FF6000     guibg=#444444
+highlight VertSplit   gui=bold guifg=#99BB00     guibg=#444444
 highlight FoldColumn	 gui=bold guifg=White guibg=Black
 highlight Type						gui=NONE
 highlight Typedef           guibg=black     guifg=#00ff8c
@@ -47,7 +53,8 @@ highlight Delimiter         guibg=black     guifg=#ff7800
 highlight SpecialChar       guibg=#181818   guifg=#ff7800
 highlight Exception         guibg=black     guifg=Orange
 highlight String            guibg=#181818   guifg=Orange
-highlight CursorLine guibg=#252525
+" highlight CursorLine guibg=#252525
+highlight CursorLine gui=Underline guibg=black
 highlight MatchParen guibg=purple guifg=yellow
 highlight Pmenu guibg=grey20 guifg=white
 highlight PmenuSel guibg=#00ff00 guifg=black
@@ -55,6 +62,9 @@ highlight WildMenu guibg=cyan guifg=black
 highlight Conceal guibg=#404040 guifg=orange gui=NONE
 highlight Constant      guibg=black   guifg=Orange
 highlight Todo          guibg=#404040   guifg=white 
+" list chars and the like
+highlight NonText guifg=#DD0000
+highlight SpecialKey guifg=#DD0000
 
 " Console
 highlight Normal        ctermfg=LightGrey	ctermbg=Black  cterm=NONE
@@ -94,5 +104,8 @@ highlight PreProc ctermfg=magenta
 highlight Underlined ctermfg=White ctermbg=Darkgrey
 highlight Pmenu ctermbg=black ctermfg=white
 highlight PmenuSel ctermbg=magenta ctermfg=black
+" list chars and the like
+highlight NonText ctermfg=red
+highlight SpecialKey ctermfg=red
 
 " vim:sw=2 sts=2 et
