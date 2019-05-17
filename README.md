@@ -42,7 +42,7 @@ Put the following lines in your .vimrc for using this color scheme:
 
     colorscheme tortus " or tortusless " a bit less aggressive version
 
-If you use this colorscheme with krl.vim >=1.3.0 or rapid.vim >=1.3.0 put
+If you use this colorscheme with krl.vim or rapid.vim >=1.3.0 and <=2.0.0 put
 
     let g:krlNoHighLink=1
     let g:rapidNoHighLink=1 
