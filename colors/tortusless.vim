@@ -63,8 +63,8 @@ highlight Conceal guibg=#404040 guifg=orange gui=NONE
 highlight Constant      guibg=black   guifg=Orange
 highlight Todo          guibg=#404040   guifg=white 
 " list chars and the like
-highlight NonText guifg=#DD0000
-highlight SpecialKey guifg=#DD0000
+highlight NonText guifg=#880000
+highlight SpecialKey guifg=#880000
 
 " Console
 highlight Normal        ctermfg=LightGrey	ctermbg=Black  cterm=NONE
