@@ -55,7 +55,8 @@ highlight Exception         guibg=black     guifg=Orange
 highlight String            guibg=#181818   guifg=Orange
 " highlight CursorLine guibg=#252525
 highlight CursorLine gui=Underline guibg=black
-highlight MatchParen guibg=purple guifg=yellow
+" highlight MatchParen guibg=purple guifg=yellow
+highlight MatchParen guibg=#333333 gui=underline
 highlight Pmenu guibg=grey20 guifg=white
 highlight PmenuSel guibg=#00ff00 guifg=black
 highlight WildMenu guibg=cyan guifg=black
@@ -81,6 +82,7 @@ highlight Operator      ctermbg=black   ctermfg=Brown
 highlight Special       ctermfg=brown
 highlight Delimiter     ctermfg=brown
 highlight Comment       ctermfg=darkgray
+highlight MatchParen ctermbg=black cterm=bold,underline
 highlight Todo          ctermfg=Red   ctermbg=Black 
 highlight StatusLine    ctermfg=black ctermbg=lightgrey cterm=NONE
 highlight StatusLineNC  ctermfg=lightgrey  ctermbg=darkgrey  cterm=NONE
