@@ -2,8 +2,8 @@
 " A copy+paste color scheme
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
-" Version: 1.0.9
-" Last Change: 14 Feb 2019
+" Version: 1.0.10
+" Last Change: 18 Sep 2019
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -25,7 +25,7 @@ highlight Search     guifg=Black  guibg=Orange  gui=bold
 highlight Visual     guifg=Black guibg=Grey gui=NONE
 highlight Cursor     guifg=Black	guibg=#00ff00	gui=bold
 " highlight Special    guifg=Orange
-highlight Comment    guifg=#606080
+highlight Comment    guifg=#9090B0
 highlight StatusLine   gui=NONE guifg=White     guibg=#204040
 highlight StatusLineNC gui=NONE guifg=#666666 guibg=#102020
 highlight Statement  guifg=Yellow			gui=NONE
