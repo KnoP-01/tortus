@@ -2,8 +2,8 @@
 " A copy+paste color scheme
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
-" Version: 1.0.7
-" Last Change: 11 Nov 2019
+" Version: 1.0.11
+" Last Change: 07 Nov 2019
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -19,101 +19,102 @@ if exists("syntax_on")
 endif
 let g:colors_name = "tortusless"
 
-" make examples in Help more readable
-highlight link helpExample    Operator
-highlight link helpCommand    Operator
+" make examples in help and markdown code more readable
+highlight link helpExample        Operator
+highlight link helpCommand        Operator
 highlight link markdownCode       Operator
 highlight link markdownCodeBlock  Operator
 
 " GUI
-highlight Normal     guifg=Grey80	guibg=Black
-highlight Search     guifg=Black  guibg=Orange  gui=bold 
-highlight Visual     guifg=Black guibg=Grey gui=NONE
-highlight Cursor     guifg=Black	guibg=#00ff00	gui=bold
-" highlight Special    guifg=Orange
-highlight Comment    guifg=#9090B0
-" highlight StatusLine   gui=NONE guifg=White     guibg=#204040
-" highlight StatusLine gui=NONE guifg=#FFFFFF guibg=#FF3000
-highlight StatusLine gui=NONE guifg=#EEEEEE guibg=#556600
-" highlight StatusLineNC gui=NONE guifg=#666666 guibg=#102020
-" highlight StatusLineNC   gui=NONE guifg=#FF6000     guibg=#444444
-highlight StatusLineNC   gui=NONE guifg=#99BB00     guibg=#444444
-highlight Statement  guifg=Yellow			gui=NONE
-highlight Label  guifg=#FFC030			gui=NONE
-" highlight VertSplit    gui=bold guifg=Grey25    guibg=#102020
-" highlight VertSplit   gui=bold guifg=#FF6000     guibg=#444444
-highlight VertSplit   gui=bold guifg=#99BB00     guibg=#444444
-highlight FoldColumn	 gui=bold guifg=White guibg=Black
-highlight Type						gui=NONE
-highlight Typedef           guibg=black     guifg=#00ff8c
-highlight StorageClass      guibg=Black     guifg=#a0db35
-highlight Folded            guibg=black     guifg=#a0db35
-highlight Identifier        guibg=Black     guifg=#00eeee
-highlight Function          guibg=Black     guifg=#00dddd
-highlight BuildInFunction   guibg=Black     guifg=#00aaaa
-highlight Sysvars           guibg=black     guifg=white
-highlight Movement          guibg=black     guifg=#00f000
-highlight Continue          guifg=#646423
-highlight Operator          guibg=black     guifg=#ff7800
-highlight Delimiter         guibg=black     guifg=#ff7800
-highlight SpecialChar       guibg=#181818   guifg=#ff7800
-highlight Exception         guibg=black     guifg=Orange
-highlight String            guibg=#181818   guifg=Orange
-" highlight CursorLine guibg=#252525
-highlight CursorLine gui=Underline guibg=black
-" highlight MatchParen guibg=purple guifg=yellow
-highlight MatchParen guibg=#333333 gui=underline
-highlight Pmenu guibg=grey20 guifg=white
-highlight PmenuSel guibg=#00ff00 guifg=black
-highlight WildMenu guibg=cyan guifg=black
-highlight Conceal guibg=#404040 guifg=orange gui=NONE
-highlight Constant      guibg=black   guifg=Orange
-highlight Todo          guibg=#404040   guifg=white 
+highlight Normal            guibg=Black         guifg=Grey80
+highlight Search            guibg=Orange        guifg=Black         gui=BOLD
+highlight Visual            guibg=Grey          guifg=Black         gui=BOLD
+highlight Cursor            guibg=#00ff00       guifg=Black         gui=BOLD
+highlight Comment                               guifg=#9090B0
+highlight StatusLine        guibg=#556600       guifg=#EEEEEE       gui=NONE
+highlight StatusLineNC      guibg=#444444       guifg=#99BB00       gui=NONE
+highlight Statement                             guifg=Yellow        gui=NONE
+highlight Label                                 guifg=#FFC030       gui=NONE
+highlight VertSplit         guibg=#444444       guifg=#99BB00       gui=BOLD
+highlight FoldColumn        guibg=Black         guifg=White         gui=BOLD
+highlight Type                                                      gui=NONE
+highlight Typedef           guibg=black         guifg=#00ff8c
+highlight StorageClass      guibg=Black         guifg=#a0db35
+highlight Folded            guibg=black         guifg=#a0db35
+highlight Identifier        guibg=Black         guifg=#00eeee
+highlight Function          guibg=Black         guifg=#00dddd
+highlight BuildInFunction   guibg=Black         guifg=#00aaaa
+highlight Sysvars           guibg=black         guifg=white
+highlight Movement          guibg=black         guifg=#00f000
+highlight Continue                              guifg=#646423
+highlight Operator          guibg=black         guifg=#ff7800
+highlight Delimiter         guibg=black         guifg=#ff7800
+highlight SpecialChar       guibg=#181818       guifg=#ff7800
+highlight Exception         guibg=black         guifg=Orange
+highlight String            guibg=#181818       guifg=Orange
+highlight CursorLine        guibg=black                             gui=UNDERLINE 
+highlight MatchParen        guibg=#333333                           gui=UNDERLINE
+highlight Pmenu             guibg=grey20        guifg=white
+highlight PmenuSel          guibg=#00ff00       guifg=black
+highlight WildMenu          guibg=cyan          guifg=black
+highlight Conceal           guibg=#404040       guifg=orange        gui=NONE
+highlight Constant          guibg=black         guifg=Orange
+highlight Todo              guibg=#404040       guifg=white 
 " list chars and the like
-highlight NonText guifg=#880000
-highlight SpecialKey guifg=#880000
+highlight NonText                               guifg=#880000
+highlight SpecialKey                            guifg=#880000
+" Diff
+highlight DiffDelete        guibg=#004646       guifg=#007070
+highlight DiffAdd           guibg=#000046
+highlight DiffChange        guibg=#460000                           gui=NONE
+highlight DiffText          guibg=#8c0000                           gui=NONE
 
 " Console
-highlight Normal        ctermfg=LightGrey	ctermbg=Black  cterm=NONE
-highlight Statement     ctermbg=black   ctermfg=Yellow
-highlight Label     ctermbg=black   ctermfg=Brown
-highlight Continue      ctermbg=black   ctermfg=Yellow
-highlight Search        ctermfg=Black  ctermbg=green cterm=NONE
-highlight Visual        ctermfg=Black ctermbg=Grey cterm=NONE
-highlight Cursor        ctermfg=Black	ctermbg=Green
-highlight Constant      ctermbg=black   ctermfg=white
-highlight String        ctermbg=black   ctermfg=white
-highlight SpecialChar   ctermbg=black   ctermfg=LightGrey
-highlight Operator      ctermbg=black   ctermfg=Brown
-highlight Special       ctermfg=brown
-highlight Delimiter     ctermfg=brown
-highlight Comment       ctermfg=darkgray
-highlight MatchParen ctermbg=black cterm=bold,underline
-highlight Todo          ctermfg=Red   ctermbg=Black 
-highlight StatusLine    ctermfg=black ctermbg=lightgrey cterm=NONE
-highlight StatusLineNC  ctermfg=lightgrey  ctermbg=darkgrey  cterm=NONE
-highlight VertSplit     ctermfg=lightgrey   ctermbg=DarkGrey cterm=bold
-highlight Exception     ctermbg=black   ctermfg=Yellow
-highlight FoldColumn	ctermbg=Black		ctermfg=White cterm=bold
-highlight Type          ctermfg=darkgreen   cterm=NONE
-highlight Typedef       ctermfg=darkgreen   cterm=NONE
-highlight StorageClass  ctermfg=darkgreen   cterm=NONE
-highlight Folded        ctermbg=black   ctermfg=green
-highlight Movement      ctermbg=black   ctermfg=green
-highlight Identifier        ctermbg=Black     ctermfg=darkcyan
-highlight Function       ctermbg=Black   ctermfg=darkcyan
-highlight BuildInFunction       ctermbg=Black   ctermfg=darkcyan
-highlight Sysvars       ctermbg=black   ctermfg=white
-highlight CursorLine    ctermbg=black
+highlight Normal                ctermbg=Black       ctermfg=LightGrey     cterm=NONE
+highlight Statement             ctermbg=black       ctermfg=Yellow
+highlight Label                 ctermbg=black       ctermfg=Brown
+highlight Continue              ctermbg=black       ctermfg=Yellow
+highlight Search                ctermbg=green       ctermfg=Black         cterm=NONE
+highlight Visual                ctermbg=Grey        ctermfg=Black         cterm=NONE
+highlight Cursor                ctermbg=Green       ctermfg=Black
+highlight Constant              ctermbg=black       ctermfg=white
+highlight String                ctermbg=black       ctermfg=white
+highlight SpecialChar           ctermbg=black       ctermfg=LightGrey
+highlight Operator              ctermbg=black       ctermfg=Brown
+highlight Special                                   ctermfg=brown
+highlight Delimiter                                 ctermfg=brown
+highlight Comment                                   ctermfg=darkgray
+highlight MatchParen            ctermbg=black                             cterm=BOLD,UNDERLINE
+highlight Todo                  ctermbg=Black       ctermfg=Red    
+highlight StatusLine            ctermbg=lightgrey   ctermfg=black         cterm=NONE
+highlight StatusLineNC          ctermbg=darkgrey    ctermfg=lightgrey     cterm=NONE
+highlight VertSplit             ctermbg=DarkGrey    ctermfg=lightgrey     cterm=BOLD
+highlight Exception             ctermbg=black       ctermfg=Yellow
+highlight FoldColumn            ctermbg=Black       ctermfg=White         cterm=BOLD
+highlight Type                                      ctermfg=darkgreen     cterm=NONE
+highlight Typedef                                   ctermfg=darkgreen     cterm=NONE
+highlight StorageClass                              ctermfg=darkgreen     cterm=NONE
+highlight Folded                ctermbg=black       ctermfg=green
+highlight Movement              ctermbg=black       ctermfg=green
+highlight Identifier            ctermbg=Black       ctermfg=darkcyan
+highlight Function              ctermbg=Black       ctermfg=darkcyan
+highlight BuildInFunction       ctermbg=Black       ctermfg=darkcyan
+highlight Sysvars               ctermbg=black       ctermfg=white
+highlight CursorLine            ctermbg=black
 if has("win32")
-  highlight CursorLine ctermbg=Darkblue
+  highlight CursorLine          ctermbg=Darkblue
 endif
-highlight PreProc ctermfg=magenta
-highlight Underlined ctermfg=White ctermbg=Darkgrey
-highlight Pmenu ctermbg=black ctermfg=white
-highlight PmenuSel ctermbg=magenta ctermfg=black
+highlight PreProc                                   ctermfg=magenta
+highlight Underlined            ctermbg=Darkgrey    ctermfg=White
+highlight Pmenu                 ctermbg=black       ctermfg=white
+highlight PmenuSel              ctermbg=magenta     ctermfg=black
 " list chars and the like
-highlight NonText ctermfg=red
-highlight SpecialKey ctermfg=red
+highlight NonText                                   ctermfg=red
+highlight SpecialKey                                ctermfg=red
+" Diff
+highlight DiffDelete            ctermbg=darkcyan
+highlight DiffAdd               ctermbg=darkblue
+highlight DiffChange                                                      cterm=BOLD
+highlight DiffText              ctermbg=darkred    ctermfg=white          cterm=NONE
 
 " vim:sw=2 sts=2 et
