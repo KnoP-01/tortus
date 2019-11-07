@@ -2,8 +2,8 @@
 " A copy+paste color scheme
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
-" Version: 1.0.6
-" Last Change: 18 Sep 2019
+" Version: 1.0.7
+" Last Change: 11 Nov 2019
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -18,6 +18,12 @@ if exists("syntax_on")
   syntax reset
 endif
 let g:colors_name = "tortusless"
+
+" make examples in Help more readable
+highlight link helpExample    Operator
+highlight link helpCommand    Operator
+highlight link markdownCode       Operator
+highlight link markdownCodeBlock  Operator
 
 " GUI
 highlight Normal     guifg=Grey80	guibg=Black
