@@ -52,5 +52,5 @@ in .vimrc as well.
 [1]: https://www.vim.org/scripts/script.php?script_id=111
 [2]: https://www.vim.org/scripts/script.php?script_id=1393
 [3]: https://www.vim.org/scripts/script.php?script_id=985
-[4]: https://www.vim.org/scripts/script.php?script_id=5344
-[5]: https://www.vim.org/scripts/script.php?script_id=5348
+[4]: https://github.com/KnoP-01/krl-for-vim
+[5]: https://github.com/KnoP-01/rapid-for-vim
