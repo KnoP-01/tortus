@@ -47,7 +47,7 @@ highlight BuildInFunction   guibg=Black         guifg=#00aaaa
 highlight Sysvars           guibg=black         guifg=white
 highlight Movement          guibg=black         guifg=#00f000
 highlight Continue                              guifg=#646423
-highlight Operator          guibg=black         guifg=#ff7800
+highlight Operator          guibg=black         guifg=#f05400
 highlight Delimiter         guibg=black         guifg=#ff7800
 highlight SpecialChar       guibg=#181818       guifg=#ff7800
 highlight Exception         guibg=black         guifg=Orange
