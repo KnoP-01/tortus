@@ -3,7 +3,7 @@
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
 " Version: 1.0.11
-" Last Change: 07 Nov 2019
+" Last Change: 29. Jan 2020
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -38,7 +38,7 @@ highlight Label                                 guifg=#FFC030       gui=NONE
 highlight VertSplit         guibg=#444444       guifg=#99BB00       gui=BOLD
 highlight FoldColumn        guibg=Black         guifg=White         gui=BOLD
 highlight Type                                                      gui=NONE
-highlight Typedef           guibg=black         guifg=#00ff8c
+highlight Typedef           guibg=black         guifg=#d0f422
 highlight StorageClass      guibg=Black         guifg=#a0db35
 highlight Folded            guibg=black         guifg=#a0db35
 highlight Identifier        guibg=Black         guifg=#00eeee
@@ -48,9 +48,11 @@ highlight Sysvars           guibg=black         guifg=white
 highlight Movement          guibg=black         guifg=#00f000
 highlight Continue                              guifg=#646423
 highlight Operator          guibg=black         guifg=#f05400
+" highlight Special           guibg=black         guifg=#ee5400
 highlight Delimiter         guibg=black         guifg=#ff7800
 highlight SpecialChar       guibg=#181818       guifg=#ff7800
 highlight Exception         guibg=black         guifg=Orange
+" highlight Exception         guibg=black         guifg=#ee5400
 highlight String            guibg=#181818       guifg=Orange
 highlight CursorLine        guibg=black                             gui=UNDERLINE 
 highlight MatchParen        guibg=#333333                           gui=UNDERLINE
