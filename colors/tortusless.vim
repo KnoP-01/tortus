@@ -51,8 +51,8 @@ highlight Operator          guibg=black         guifg=#f05400
 " highlight Special           guibg=black         guifg=#ee5400
 highlight Delimiter         guibg=black         guifg=#ff7800
 highlight SpecialChar       guibg=#181818       guifg=#ff7800
-highlight Exception         guibg=black         guifg=Orange
-" highlight Exception         guibg=black         guifg=#ee5400
+" highlight Exception         guibg=black         guifg=Orange
+highlight Exception         guibg=black         guifg=#FFC030
 highlight String            guibg=#181818       guifg=Orange
 highlight CursorLine        guibg=black                             gui=UNDERLINE 
 highlight MatchParen        guibg=#333333                           gui=UNDERLINE
