@@ -3,7 +3,7 @@
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
 " Version: 1.0.11
-" Last Change: 02. Oct 2020
+" Last Change: 29-Oct-2020
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -119,8 +119,9 @@ highlight DiffAdd               ctermbg=darkblue
 highlight DiffChange                                                      cterm=BOLD
 highlight DiffText              ctermbg=darkred    ctermfg=white          cterm=NONE
 
-if has('termguicolors') && $COLORTERM ==# 'truecolor'
-  set termguicolors
-endif
+" #vim sais: bad idea, too much uncertainties
+" if has('termguicolors') && $COLORTERM ==# 'truecolor'
+"   set termguicolors
+" endif
 
 " vim:sw=2 sts=2 et
