@@ -3,7 +3,7 @@
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
 " Version: 1.0.11
-" Last Change: 29. Jan 2020
+" Last Change: 02. Oct 2020
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -38,7 +38,7 @@ highlight Label                                 guifg=#FFC030       gui=NONE
 highlight VertSplit         guibg=#444444       guifg=#99BB00       gui=BOLD
 highlight FoldColumn        guibg=Black         guifg=White         gui=BOLD
 highlight Type                                                      gui=NONE
-highlight Typedef           guibg=black         guifg=#d0f422
+highlight Typedef           guibg=black         guifg=#b0e020
 highlight StorageClass      guibg=Black         guifg=#a0db35
 highlight Folded            guibg=black         guifg=#a0db35
 highlight Identifier        guibg=Black         guifg=#00eeee
@@ -73,14 +73,14 @@ highlight DiffText          guibg=#8c0000                           gui=NONE
 
 " Console
 highlight Normal                ctermbg=Black       ctermfg=LightGrey     cterm=NONE
-highlight Statement             ctermbg=black       ctermfg=Yellow
+highlight Statement             ctermbg=black       ctermfg=Yellow        cterm=NONE
 highlight Label                 ctermbg=black       ctermfg=Brown
 highlight Continue              ctermbg=black       ctermfg=Yellow
 highlight Search                ctermbg=green       ctermfg=Black         cterm=NONE
 highlight Visual                ctermbg=Grey        ctermfg=Black         cterm=NONE
 highlight Cursor                ctermbg=Green       ctermfg=Black
 highlight Constant              ctermbg=black       ctermfg=white
-highlight String                ctermbg=black       ctermfg=white
+highlight String                ctermbg=black       ctermfg=white         cterm=NONE
 highlight SpecialChar           ctermbg=black       ctermfg=LightGrey
 highlight Operator              ctermbg=black       ctermfg=Brown
 highlight Special                                   ctermfg=brown
@@ -106,7 +106,7 @@ highlight CursorLine            ctermbg=black
 if has("win32")
   highlight CursorLine          ctermbg=Darkblue
 endif
-highlight PreProc                                   ctermfg=magenta
+highlight PreProc                                   ctermfg=magenta       cterm=NONE
 highlight Underlined            ctermbg=Darkgrey    ctermfg=White
 highlight Pmenu                 ctermbg=black       ctermfg=white
 highlight PmenuSel              ctermbg=magenta     ctermfg=black
@@ -118,5 +118,9 @@ highlight DiffDelete            ctermbg=darkcyan
 highlight DiffAdd               ctermbg=darkblue
 highlight DiffChange                                                      cterm=BOLD
 highlight DiffText              ctermbg=darkred    ctermfg=white          cterm=NONE
+
+if has('termguicolors') && $COLORTERM ==# 'truecolor'
+  set termguicolors
+endif
 
 " vim:sw=2 sts=2 et
