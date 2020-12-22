@@ -3,7 +3,7 @@
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
 " Version: 1.0.11
-" Last Change: 14. Nov 2020
+" Last Change: 22. Dec 2020
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -107,7 +107,7 @@ if has("win32")
   highlight CursorLine          ctermbg=Darkblue
 endif
 highlight PreProc                                   ctermfg=magenta       cterm=NONE
-highlight Underlined            ctermbg=Darkgrey    ctermfg=White         cterm=NONE
+highlight Underlined            ctermbg=Darkgrey    ctermfg=White         cterm=UNDERLINE
 highlight Pmenu                 ctermbg=black       ctermfg=white         cterm=NONE
 highlight PmenuSel              ctermbg=magenta     ctermfg=black         cterm=NONE
 " list chars and the like
