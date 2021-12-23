@@ -1,9 +1,9 @@
 " Vim color file
 " A copy+paste color scheme
 " Designed to be used with the syntax files for KRL and Rapid
-" Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
-" Version: 1.0.11
-" Last Change: 22. Dec 2020
+" Maintainer: Patrick Meiser-Knosowski <knosowski@graeffrobotics.de>
+" Version: 1.0.14
+" Last Change: 23. Dec 2021
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -31,6 +31,7 @@ highlight Search            guibg=Orange        guifg=Black         gui=BOLD
 highlight Visual            guibg=Grey          guifg=Black         gui=BOLD
 highlight Cursor            guibg=#00ff00       guifg=Black         gui=BOLD
 highlight Comment                               guifg=#9090B0       gui=NONE
+highlight ColorColumn       guibg=#1c1c1c
 highlight StatusLine        guibg=#556600       guifg=#EEEEEE       gui=NONE
 highlight StatusLineNC      guibg=#444444       guifg=#99BB00       gui=NONE
 highlight Statement                             guifg=Yellow        gui=NONE
@@ -48,10 +49,8 @@ highlight Sysvars           guibg=black         guifg=white         gui=NONE
 highlight Movement          guibg=black         guifg=#00f000       gui=NONE
 highlight Continue                              guifg=#646423       gui=NONE
 highlight Operator          guibg=black         guifg=#f05400       gui=NONE
-" highlight Special           guibg=black         guifg=#ee5400       gui=NONE
 highlight Delimiter         guibg=black         guifg=#ff7800       gui=NONE
 highlight SpecialChar       guibg=#181818       guifg=#ff7800       gui=NONE
-" highlight Exception         guibg=black         guifg=Orange       gui=NONE
 highlight Exception         guibg=black         guifg=#FFC030       gui=NONE
 highlight String            guibg=#181818       guifg=Orange        gui=NONE
 highlight CursorLine        guibg=black                             gui=UNDERLINE 
@@ -86,6 +85,7 @@ highlight Operator              ctermbg=black       ctermfg=Brown         cterm=
 highlight Special                                   ctermfg=brown         cterm=NONE
 highlight Delimiter                                 ctermfg=brown         cterm=NONE
 highlight Comment                                   ctermfg=darkgray      cterm=NONE
+highlight ColorColumn           ctermbg=0
 highlight MatchParen            ctermbg=black                             cterm=BOLD,UNDERLINE
 highlight Todo                  ctermbg=Black       ctermfg=Red           cterm=NONE
 highlight StatusLine            ctermbg=lightgrey   ctermfg=black         cterm=NONE

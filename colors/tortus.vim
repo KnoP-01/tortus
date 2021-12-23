@@ -1,9 +1,9 @@
 " Vim color file
 " A copy+paste color scheme
 " Designed to be used with the syntax files for KRL and Rapid
-" Maintainer: Patrick Meiser-Knosowski <knosowski@graeff.de>
-" Version: 1.0.13
-" Last Change: 12. Nov 2020
+" Maintainer: Patrick Meiser-Knosowski <knosowski@graeffrobotics.de>
+" Version: 1.0.14
+" Last Change: 23. Dec 2021
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -31,6 +31,7 @@ highlight Search            guibg=Orange        guifg=Black         gui=BOLD
 highlight Visual            guibg=Grey          guifg=Black         gui=NONE
 highlight Cursor            guibg=#00ff00       guifg=Black         gui=BOLD
 highlight Comment                               guifg=#9090B0       gui=NONE
+highlight ColorColumn       guibg=#1c1c1c
 highlight StatusLine        guibg=#204040       guifg=White         gui=NONE
 highlight StatusLineNC      guibg=#102020       guifg=#666666       gui=NONE
 highlight Statement                             guifg=Yellow        gui=NONE
@@ -53,16 +54,16 @@ highlight Exception         guibg=black         guifg=Orange        gui=NONE
 highlight String            guibg=#181818       guifg=lightred      gui=NONE
 highlight SpecialChar       guibg=#181818       guifg=Brown         gui=NONE
 highlight CursorLine        guibg=#252525
-highlight MatchParen        guibg=purple        guifg=yellow       gui=NONE
-highlight Pmenu             guibg=grey20        guifg=white        gui=NONE
-highlight PmenuSel          guibg=#00ff00       guifg=black        gui=NONE
-highlight WildMenu          guibg=cyan          guifg=black        gui=NONE
-highlight Conceal           guibg=#404040       guifg=orange       gui=NONE
+highlight MatchParen        guibg=purple        guifg=yellow        gui=NONE
+highlight Pmenu             guibg=grey20        guifg=white         gui=NONE
+highlight PmenuSel          guibg=#00ff00       guifg=black         gui=NONE
+highlight WildMenu          guibg=cyan          guifg=black         gui=NONE
+highlight Conceal           guibg=#404040       guifg=orange        gui=NONE
 " Diff
-highlight DiffDelete        guibg=#004646       guifg=#007070      gui=NONE
-highlight DiffAdd           guibg=#000046                          gui=NONE
-highlight DiffChange        guibg=#460000                          gui=NONE
-highlight DiffText          guibg=#8c0000                          gui=NONE
+highlight DiffDelete        guibg=#004646       guifg=#007070       gui=NONE
+highlight DiffAdd           guibg=#000046                           gui=NONE
+highlight DiffChange        guibg=#460000                           gui=NONE
+highlight DiffText          guibg=#8c0000                           gui=NONE
 
 " Console
 highlight Normal                ctermbg=Black       ctermfg=LightGrey     cterm=NONE
@@ -79,6 +80,7 @@ highlight Operator              ctermbg=black       ctermfg=Red           cterm=
 highlight Special                                   ctermfg=brown         cterm=NONE
 highlight Delimiter                                 ctermfg=brown         cterm=NONE
 highlight Comment                                   ctermfg=darkgray      cterm=NONE
+highlight ColorColumn           ctermbg=0
 highlight Todo                  ctermbg=Yellow      ctermfg=Darkgray      cterm=NONE
 highlight StatusLine            ctermbg=lightgrey   ctermfg=black         cterm=NONE
 highlight StatusLineNC          ctermbg=darkgrey    ctermfg=lightgrey     cterm=NONE
