@@ -3,7 +3,7 @@
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeffrobotics.de>
 " Version: 1.0.14
-" Last Change: 23. Dec 2021
+" Last Change: 26. Sep 2022
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -62,8 +62,8 @@ highlight Conceal           guibg=#404040       guifg=orange        gui=NONE
 highlight Constant          guibg=black         guifg=Orange        gui=NONE
 highlight Todo              guibg=#404040       guifg=white         gui=NONE
 " list chars and the like
-highlight NonText                               guifg=#880000       gui=NONE
-highlight SpecialKey                            guifg=#880000       gui=NONE
+highlight NonText                               guifg=#CC0000       gui=NONE
+highlight SpecialKey                            guifg=#CC0000       gui=NONE
 " Diff
 highlight DiffDelete        guibg=#004646       guifg=#007070       gui=NONE
 highlight DiffAdd           guibg=#000046                           gui=NONE
