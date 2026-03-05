@@ -59,6 +59,8 @@ highlight Pmenu             guibg=grey20        guifg=white         gui=NONE
 highlight PmenuSel          guibg=#00ff00       guifg=black         gui=NONE
 highlight WildMenu          guibg=cyan          guifg=black         gui=NONE
 highlight Conceal           guibg=#404040       guifg=orange        gui=NONE
+highlight SignColumn        guibg=black         guifg=magenta       gui=NONE
+highlight CursorLineSign    guibg=black         guifg=magenta       gui=UNDERLINE
 " Diff
 highlight DiffDelete        guibg=#004646       guifg=#007070       gui=NONE
 highlight DiffAdd           guibg=#000046                           gui=NONE
