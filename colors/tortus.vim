@@ -2,8 +2,8 @@
 " A copy+paste color scheme
 " Designed to be used with the syntax files for KRL and Rapid
 " Maintainer: Patrick Meiser-Knosowski <knosowski@graeffrobotics.de>
-" Version: 1.0.14
-" Last Change: 23. Dec 2021
+" Version: 1.0.15
+" Last Change: 06. Mar 2026
 "
 " Credits: Thorsten Maerz (torte.vim vimscript #111), 
 "          Sergei Matusevich (motus.vim vimscript #1393) and 
@@ -83,6 +83,7 @@ highlight Special                                   ctermfg=brown         cterm=
 highlight Delimiter                                 ctermfg=brown         cterm=NONE
 highlight Comment                                   ctermfg=darkgray      cterm=NONE
 highlight ColorColumn           ctermbg=0
+highlight MatchParen            ctermbg=magenta     ctermfg=yellow        cterm=NONE
 highlight Todo                  ctermbg=Yellow      ctermfg=Darkgray      cterm=NONE
 highlight StatusLine            ctermbg=lightgrey   ctermfg=black         cterm=NONE
 highlight StatusLineNC          ctermbg=darkgrey    ctermfg=lightgrey     cterm=NONE
